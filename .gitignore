@@ -1,3 +1,13 @@
+/**/.idea/
+gb_go_psql/**/.idea/
+gb_go_psql/.DS_Store
+.DS_Store
+gb_go_psql/**/pkg/
+gb_go_psql/**/bin/
+.idea
+go.mod
+go.sum
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
