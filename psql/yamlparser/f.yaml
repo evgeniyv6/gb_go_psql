@@ -1,0 +1,9 @@
+UVS_SCENARIO_ONE:
+  SIGMA:
+    DB:
+      psi:
+        server: 'localhost'
+        port: 5432
+        db: 'mydb'
+        table: 'sr_jenkins_job'
+        cred_prefix: 'REGISTRY'

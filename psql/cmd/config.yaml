@@ -1,0 +1,33 @@
+COMMON:
+  DB:
+    psi:
+      server: 'localhost'
+      port: '5432'
+      db: 'mydb'
+      table: 'registry_pipe.sr_jenkins_job'
+      cred_prefix: 'REGISTRY'
+      s_protocol: 'http'
+      s_host: 'jenkins_host'
+      s_domain: 'app.test-ose.sigma'
+      s_jenkins_path: 'rlm'
+      j_build_type: 'buildWithParametes'
+      j_token: '!!cat!!'
+      j_notes: 'DEV'
+      j_mdata: 'metadata'
+      j_published: '1'
+      j_version: '0.1'
+      j_version_tag: 'DEV'
+      s_user_name: 'TUZER'
+      s_user_token: '11eoi2oi33229d2'
+    master:
+
+UVS_SCENARIO_ONE:
+  SIGMA:
+    DB:
+      psi:
+        - j_id: 'lin_scenario_go_dev'
+          j_path: '/UVS/'
+          j_job_name: 'lin_go'
+
+
+
